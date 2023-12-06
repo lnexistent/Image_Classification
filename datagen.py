@@ -12,7 +12,6 @@ batch_size = 64
 
 train_datagen = ImageDataGenerator(
     rescale=1.0 / 255,
-    validation_split=0.2,
     horizontal_flip=True,
     rotation_range=20,
     width_shift_range=0.2,
@@ -36,7 +35,6 @@ train_generator = train_datagen.flow_from_directory(
 
 validation_datagen = ImageDataGenerator(
     rescale=1.0 / 255,
-    validation_split=0.2,
     horizontal_flip=True,
     rotation_range=20,
     width_shift_range=0.2,
