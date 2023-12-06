@@ -11,7 +11,7 @@ os.makedirs(base_dir, exist_ok=True)
 
 # Set the names for the train, validation, and test folders
 train_dir = os.path.join(base_dir, 'train')
-val_dir = os.path.join(base_dir, 'val')  # New directory for validation
+val_dir = os.path.join(base_dir, 'val')  
 test_dir = os.path.join(base_dir, 'test')
 
 # Create the train, validation, and test directories
