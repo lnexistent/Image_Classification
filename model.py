@@ -66,7 +66,6 @@ model = Sequential([
     # Flatten
     Flatten(),
     Dense(1024, activation="relu"),
-    #Dropout(0.2),
     Dense(512, activation="relu"),
     Dense(8, activation="softmax")
 ])
