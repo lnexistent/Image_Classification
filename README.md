@@ -7,3 +7,5 @@ Order to run:
 
 
 Dataset link: https://www.kaggle.com/datasets/aseemks07/vehiclestransport/data
+
+Model link: https://www.mediafire.com/file/axslz8phr1ac2uw/best_model.keras/file
